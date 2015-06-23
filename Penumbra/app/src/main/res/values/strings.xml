@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Penumbra</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Device Admin -->
+    <string name="enable_device_admin">Enable Device Admin</string>
+    <string name="lock_device">Lock Device</string>
+    <string name="reset_device">Reset Device</string>
+    <string name="device_admin_enabled">Device Admin Enabled</string>
+    <string name="device_admin_disabled">Device Admin Disabled</string>
+    <!-- camera -->
+    <string name="camera">Camera</string>
+
+    <!-- audio -->
+    <string name="audio">Audio</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="record">Record</string>
+    <string name="play">Play</string>
+
+    <!-- alarm -->
+    <string name="alarm">Alarm</string>
+
+    <!-- geolocation -->
+    <string name="walk_start">Start</string>
+    <string name="walk_end">End</string>
+    <string name="walk_started_at_format">Walk started at %s</string>
+    <string name="walk_ended_at_format">Walk ended at %s</string>
+    <string name="show_map">Show Map</string>
+    <string name="map">Map</string>
+    <string name="map_location">Map Location</string>
+    <string name="display_map">Display Map</string>
+    <string name="track">Track</string>
+    <string name="stop_tracking">Stop Tracking</string>
+
+
+</resources>

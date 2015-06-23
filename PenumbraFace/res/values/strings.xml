@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Penumbra Face</string>        
+    <string name="train">Train</string>
+    <string name="view_all">View all faces</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>    
+    
+    <!-- controls -->
+    <string name="cannot_predict">More then one face is needed to predict</string>    
+    <string name="face_name">Face name:</string>
+    <string name="searching">Searching</string>
+    
+    <!-- Camera features -->
+    <string name="front_camera">Front Camera</string>
+    <string name="back_camera">Back Camera</string>
+    
+    <!-- Training the face -->
+    <string name="stop_train">Stop Training</string>
+    <string name="stop_search">Stop Search</string>
+    <string name="training">Training...</string>
+    
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    
+</resources>

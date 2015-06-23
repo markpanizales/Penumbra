@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Signin</title>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+      <link rel="stylesheet"
+          href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  This is a test
+
+  <script type="text/javascript">
+    function enableClick() {
+
+    }
+    // This is called initially
+    function init() {
+      var apiName = 'messaging'
+      var apiVersion = 'v1'
+      var apiRoot = 'https://' + window.location.host + '/_ah/api';
+      if (window.location.hostname == 'localhost'
+          || window.location.hostname == '127.0.0.1'
+          || ((window.location.port != "") && (window.location.port > 1023))) {
+            // We're probably running against the DevAppServer
+            apiRoot = 'http://' + window.location.host + '/_ah/api';
+      }
+      var callback = function() {
+        enableClick();
+      }
+      gapi.client.load(apiName, apiVersion, callback, apiRoot);
+    }
+  </script>
+
+  <script src="https://apis.google.com/js/client.js?onload=init"></script>
+  </body>
+</html>
